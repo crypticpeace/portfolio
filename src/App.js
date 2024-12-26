@@ -6,7 +6,7 @@ import Image2 from './assets/_DSC0450.JPG';
 import Navbar from './components/navbar';
 import PreviousClientWork from './components/PreviousClientWork';
 import ProductComparison from './components/ProductComparison';
-import Footer from './components/footer';
+
 import FeaturesBanner from './components/FeaturesBanner';
 
 const App = () => {
@@ -195,7 +195,7 @@ const App = () => {
       </div>
 
       {/* Footer */}
-      <Footer />
+      
 
     </div>
   );
