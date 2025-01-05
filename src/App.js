@@ -5,7 +5,6 @@ import Image1 from './assets/aman_creativelead.JPG';
 import Image2 from './assets/_DSC0450.JPG';
 import Navbar from './components/navbar';
 import PreviousClientWork from './components/PreviousClientWork';
-import ProductComparison from './components/ProductComparison';
 import Footer from './components/footer';
 import FeaturesBanner from './components/FeaturesBanner';
 
@@ -130,7 +129,7 @@ const App = () => {
           </div>
 
           <div>
-            <h2 className="text-xl font-bold ">About This Developer</h2>
+            <h2 className="text-xl font-bold ">About This Product</h2>
             <div className=" pr-3 whitespace-pre-line">
               {profileData.description}
             </div>
