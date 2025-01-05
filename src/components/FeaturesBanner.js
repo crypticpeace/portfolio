@@ -1,23 +1,23 @@
 import React from 'react';
-import { XCircle, Truck, Shield, CreditCard } from 'lucide-react';
+import { Smile, Truck, Shield, CreditCard } from 'lucide-react';
 
 const FeaturesBanner = ({ features = [] }) => {
   // Default features if none provided
   const defaultFeatures = [
     {
-      icon: <XCircle className="w-6 h-6 text-orange-400" />,
+      icon: <Smile className="w-6 h-6 text-orange-400" />,
       customIcon: null,
-      title: "Non-Returnable"
+      title: "Cute"
     },
     {
       icon: <Truck className="w-6 h-6 text-orange-400" />,
       customIcon: null,
-      title: "Free Delivery"
+      title: "On time Delivery"
     },
     {
       icon: <Shield className="w-6 h-6 text-orange-400" />,
       customIcon: null,
-      title: "10 Year\nWarranty"
+      title: "Quality Warranty"
     },
     {
       icon: <CreditCard className="w-6 h-6 text-orange-400" />,

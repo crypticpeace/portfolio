@@ -12,6 +12,13 @@ import FeaturesBanner from './components/FeaturesBanner';
 const App = () => {
   const [selectedImage, setSelectedImage] = useState(0);
 
+  const ScrollButton = () => {
+      const footer = document.querySelector('footer');
+      if (footer) {
+        footer.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
   const profileData = {
     name: "Aman Jain",
     title: "Social Media Manager",
@@ -108,7 +115,7 @@ const App = () => {
               </div>
             </div>
             <div className="flex gap-4 mt-4">
-              <button className="bg-yellow-400 text-black px-6 py-2 rounded flex items-center gap-2">
+              <button onClick= {ScrollButton} className="bg-yellow-400 text-black px-6 py-2 rounded flex items-center gap-2">
                 <ShoppingCart size={20} />
                 Hire Now
               </button>
@@ -167,8 +174,8 @@ const App = () => {
       {/* Previous work Section */}
       <PreviousClientWork />
 
-      {/* Previous work Section */}
-      <ProductComparison />
+      {/* Previous work Section * <ProductComparison />/  }
+     
 
       {/* Reviews Section */}
       <div className="mt-4">
